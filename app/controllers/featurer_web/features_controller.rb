@@ -23,7 +23,8 @@ module FeaturerWeb
     def destroy
       Featurer.delete(params[:id])
 
-      head 200
+      flash[:info] = "Feature deleted"
+      redirect_to root_path
     end
 
     private
