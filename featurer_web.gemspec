@@ -19,4 +19,5 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'rails', '>= 4.2.7'
   s.add_dependency 'featurer', '~> 0.1.1'
+  s.add_dependency 'jquery-rails', '>= 1.0'
 end
